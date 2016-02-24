@@ -1,0 +1,1 @@
+SELECT name, join_date FROM `users` WHERE gender = "male" and join_date <= now() - INTERVAL 1 year 
